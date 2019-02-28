@@ -38,7 +38,7 @@ namespace C0703625
                 if (CurrentVillage.isAstrildgeHere)
                 {
                     Console.WriteLine("I found  Astrildge in {0}", CurrentVillage.VillageName);
-                    Console.WriteLine("**** FEELING HAPPY!!! ******");
+                    Console.WriteLine(" FEELING GREAT!!!");
 
 
                     Console.WriteLine("Astrilde, I walked {0}  to find you. Will you marry me?", Hugi.CalculateDistanceWalked());
