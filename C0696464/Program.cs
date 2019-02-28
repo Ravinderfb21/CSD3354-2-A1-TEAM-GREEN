@@ -41,7 +41,7 @@ namespace C0703625
                     Console.WriteLine("**** FEELING HAPPY!!! ******");
 
 
-                    Console.WriteLine("Astrilde, I walked {0} miles to find you. Will you marry me?", Hugi.CalculateDistanceWalked());
+                    Console.WriteLine("Astrilde, I walked {0}  to find you. Will you marry me?", Hugi.CalculateDistanceWalked());
                     Hugi.FoundAstrilde = true;
                 }
 
@@ -59,25 +59,21 @@ namespace C0703625
 
         public void Run()
         {
-            Alst = new Village("Alst", false);
-            Schvenig = new Village("Schvenig", false);
-            Wessig = new Village("Wessig", false);
-            Maeland = new Village("Maeland", false);
-            Helmholtz = new Village("Helmholtz", false);
-            Uster = new Village("Uster", false);
-            Badden = new Village("Badden", true);
+       Alst = new Village("Alst", false);
+         Schvenig = new Village("Schvenig", false);
+         Wessig = new Village("Wessig", false);
+         Maeland = new Village("Maeland", false);
+        Helmholtz = new Village("Helmholtz", false);
+         Uster = new Village("Uster", false);
+        Badden = new Village("Badden", true);
 
-
-
-
-
-            Alst.VillageSetup(0, Schvenig, Wessig);
-            Schvenig.VillageSetup(14, Maeland, Helmholtz);
-            Wessig.VillageSetup(19, Uster, Badden);
-            Maeland.VillageSetup(9, null, null);
-            Helmholtz.VillageSetup(28, null, null);
-            Uster.VillageSetup(28, null, null);
-            Badden.VillageSetup(11, null, null);
+     Alst.VillageSetup(0, Schvenig, Wessig);
+         Schvenig.VillageSetup(14, Maeland, Helmholtz);
+         Wessig.VillageSetup(19, Uster, Badden);
+       Maeland.VillageSetup(9, null, null);
+         Helmholtz.VillageSetup(28, null, null);
+      Uster.VillageSetup(28, null, null);
+     Badden.VillageSetup(11, null, null);
 
 
             this.TraverseVillages(Alst);
@@ -89,7 +85,7 @@ namespace C0703625
             try
             {
 
-                using (StreamReader sr = new StreamReader("ann.txt"))
+                using (StreamReader sr = new StreamReader("a.txt"))
                 {
                     string line;
 
